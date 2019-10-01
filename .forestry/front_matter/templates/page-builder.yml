@@ -1,4 +1,16 @@
 ---
 label: Page Builder
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: content
+  type: blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+  label: Content
