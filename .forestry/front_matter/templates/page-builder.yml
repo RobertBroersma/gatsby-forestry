@@ -12,6 +12,8 @@ fields:
   template_types:
   - header23
   - feature
+  - recursive-1
+  - recursive-2
   config:
     min: 
     max: 
