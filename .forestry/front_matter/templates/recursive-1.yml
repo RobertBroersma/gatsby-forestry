@@ -9,7 +9,8 @@ fields:
   label: Recursive 1 Title
 - name: recursive_1_blocks
   type: blocks
-  template_types: []
+  template_types:
+  - recursive-2
   config:
     min: 
     max: 
