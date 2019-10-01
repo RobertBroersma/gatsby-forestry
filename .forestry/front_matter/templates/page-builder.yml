@@ -16,3 +16,5 @@ fields:
     min: 
     max: 
   label: Content
+pages:
+- content/posts/hello-world.md
