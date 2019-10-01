@@ -1,4 +1,17 @@
 ---
 label: Recursive 2
 hide_body: true
-fields: []
+fields:
+- name: recursive_2_title
+  type: text
+  config:
+    required: false
+  label: Recursive 2 Title
+- name: recursive_2_blocks
+  type: blocks
+  label: Recursive 2 Blocks
+  template_types:
+  - recursive-1
+  config:
+    min: 
+    max: 
