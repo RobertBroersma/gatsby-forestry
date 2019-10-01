@@ -9,7 +9,8 @@ fields:
   label: Title
 - name: content
   type: blocks
-  template_types: []
+  template_types:
+  - header23
   config:
     min: 
     max: 
